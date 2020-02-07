@@ -2,23 +2,7 @@
 
 <head>
     <meta name="theme-color" content="rgb(17,14,9)">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=11">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>ITJoker’s CDN</title>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
-    <style type="text/css">
-        .margin-footer {
-            margin-bottom: 32px;
-        }
-        
-        body {
-            padding-bottom: 64px;
-        }
-    </style>
-</head>
+
 
 
 <body>
