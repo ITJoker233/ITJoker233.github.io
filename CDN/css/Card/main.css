@@ -357,14 +357,6 @@ div.lazy {
     overflow: hidden;
 }
 
-@font-face {
-    font-family: 'theme';
-    src: url('https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.3/CDN/fonts/logo.ttf');
-    src: url('https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.3/CDN/fonts/logo.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 #pc-menu #menu-title,
 #foot .theme {
     font-family: "theme" !important;

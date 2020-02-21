@@ -21,7 +21,9 @@ App = {
     },
     outputlog: function() {
         var newDate = new Date();
-        var timestamp = $('#UpdateTime').innerText;
+        var timestamp = document.getElementById('UpdateTime').innerHTML;
+
+        console.log(timestamp);
         newDate.setTime(timestamp);
         console.clear();
         console.log(" Blog Update Time: " + newDate.toLocaleDateString());
