@@ -22,7 +22,7 @@
                 <h3>视频：<a href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/video/">https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/video/</a></h3>
                 <h3>音乐：<a href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/music/">https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/music/</a></h3>
                 <h3>JS：<a href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/">https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/</a></h3>
-                <h3>CSS：<a href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/">https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/CSS/</a></h3>
+                <h3>CSS：<a href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/">https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/css/</a></h3>
                 <h3>字体：<a href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/">https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/fonts/</a></h3>
             </div>
             <div class="col-sm-9">
