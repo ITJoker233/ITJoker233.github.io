@@ -359,8 +359,8 @@ div.lazy {
 
 @font-face {
     font-family: 'theme';
-    src: url('../fonts/logo.ttf');
-    src: url('../fonts/logo.ttf') format('truetype');
+    src: url('https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.3/CDN/fonts/logo.ttf');
+    src: url('https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.3/CDN/fonts/logo.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -1188,23 +1188,6 @@ div.lazy {
     font-weight: bold;
 }
 
-#sidebar {
-    position: relative;
-    width: 41%;
-    float: left;
-    padding: 0 10px 0 28px;
-}
-
-#sidebar ul {
-    list-style: none;
-}
-
-#sidebar .lite-item {
-    font-size: 14px;
-    line-height: 1.8;
-    max-width: 50%;
-}
-
 .lite-item .lite-item-header {
     line-height: 38px;
     margin: 0;
@@ -1222,19 +1205,6 @@ div.lazy {
 
 .lite-item .lite-item-header .memory {
     font-size: 19px;
-}
-
-#sidebar .lite-item>ul,
-#sidebar .lite-item .menu,
-#sidebar .lite-item .textwidget,
-#sidebar .lite-item>img {
-    padding: 8px;
-}
-
-#sidebar .lite-item>img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
 }
 
 .lite-item .recentcomments img.avatar {
@@ -1270,40 +1240,6 @@ div.lazy {
     left: -10px;
     top: 5px;
     color: #999;
-}
-
-.lite-item .sidebar-posts-list li,
-.lite-item ul.recentcomments li {
-    padding: 5px 0;
-    line-height: 18px;
-    overflow: hidden;
-    font-size: 12px;
-    border-bottom: 1px solid #e3e8e8;
-}
-
-.lite-item .sidebar-posts-list li:first-child,
-.lite-item ul.recentcomments li:first-child {
-    padding: 0 0 5px;
-}
-
-.lite-item .sidebar-posts-list li:last-child,
-.lite-item ul.recentcomments li:last-child {
-    border-bottom: none;
-}
-
-.lite-item .sidebar-posts-list li .post-title {
-    margin-bottom: 5px;
-    font-size: 14px;
-}
-
-.lite-item .sidebar-posts-list li .post-info span {
-    display: inline-block;
-    width: 70px;
-    margin-left: 10px;
-}
-
-.lite-item .sidebar-posts-list li .post-info i {
-    font-size: 14px;
 }
 
 .lite-item .widget-visitor {
@@ -2062,9 +1998,6 @@ div.lazy {
     #main-part {
         width: 100%;
         padding: 0 3px;
-    }
-    #sidebar {
-        display: none;
     }
 }
 
