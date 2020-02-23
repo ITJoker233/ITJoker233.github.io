@@ -1,6 +1,5 @@
 /*
     * @Theme Card
-    *
     * @author admin@itjoker.cn
     * @link https://blog.itjoker.cn
 */
@@ -42,6 +41,7 @@ h4 {
 
 a {
     text-decoration: none;
+    color: #000;
     cursor: pointer;
 }
 
@@ -109,7 +109,6 @@ img {
 
 a {
     text-decoration: none;
-    color: #000;
 }
 
 img {
@@ -122,10 +121,6 @@ textarea {
 
 .clear {
     clear: both;
-}
-
-div.lazy {
-    background-image: url('img/timg.gif');
 }
 
 .message {
@@ -364,15 +359,6 @@ div.lazy {
     color: #000;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-#main {
-    position: relative;
-    width: 980px;
-    margin: 48px auto 0;
-    min-width: 60%;
-    max-width: 100%;
-    overflow: initial;
 }
 
 #main-part {
@@ -787,136 +773,6 @@ div.lazy {
     padding-left: 20px;
 }
 
-.like-pay {
-    padding: 20px 0 10px;
-    text-align: center;
-}
-
-.like-pay>span {
-    display: inline-block;
-    width: 60px;
-    height: 24px;
-    line-height: 24px;
-    color: #fff;
-    text-align: center;
-    position: relative;
-    cursor: pointer;
-    font-size: 14;
-    vertical-align: top;
-}
-
-.like-pay .post-like {
-    background: #ea6f5a;
-    border-radius: 3px 0 0 3px;
-    margin-right: 10px;
-}
-
-.like-pay .post-like:before {
-    position: absolute;
-    top: 0;
-    right: -10px;
-    display: block;
-    content: '';
-    border-top: 12px solid #ea6f5a;
-    border-left: 5px solid #ea6f5a;
-    border-right: 5px solid transparent;
-    border-bottom: 12px solid transparent;
-}
-
-.like-pay .post-like a {
-    color: #fff;
-}
-
-.like-pay .post-pay {
-    background: #42c02e;
-    border-radius: 0 3px 3px 0;
-}
-
-.like-pay .post-pay:before {
-    position: absolute;
-    top: 0;
-    left: -10px;
-    display: block;
-    content: '';
-    border-bottom: 12px solid #42c02e;
-    border-right: 5px solid #42c02e;
-    border-left: 5px solid transparent;
-    border-top: 12px solid transparent;
-}
-
-.like-pay .post-pay .memory {
-    font-size: 14px;
-}
-
-.pay-box {
-    display: none;
-    padding: 20px 0 16px;
-    border-bottom: 1px solid #e7e7e7;
-    text-align: center;
-    background: #fff;
-    color: #000;
-    z-index: 10000;
-    cursor: default;
-    position: fixed;
-    width: 300px;
-    left: 50%;
-    top: 50%;
-    margin-left: -150px;
-    margin-top: -172px;
-    -webkit-box-shadow: rgba(0, 0, 0, .2) 0 0 5px 0;
-    box-shadow: rgba(0, 0, 0, .2) 0 0 5px 0;
-    border-radius: 4px;
-}
-
-.pay-box .pay-header {
-    text-align: left;
-    padding: 0 18px;
-}
-
-.pay-box .pay-header .memory-close {
-    float: right;
-    cursor: pointer;
-    color: #999;
-    font-weight: bold;
-}
-
-.pay-box .pay-body {
-    margin-top: 20px;
-}
-
-.pay-box .pay-body .alipay,
-.pay-box .pay-body .wechatpay {
-    display: none;
-    width: 200px;
-    height: 200px;
-}
-
-.pay-box .pay-body .alipay.chosen,
-.pay-box .pay-body .wechatpay.chosen {
-    display: inline-block;
-}
-
-.pay-box .pay-chose span {
-    width: 138px !important;
-    padding: 10px 0;
-    height: 45px;
-    text-align: center;
-    border: 1px solid #e6e6e6;
-    border-radius: 2px;
-    display: inline-block;
-    line-height: 40px;
-    cursor: pointer;
-}
-
-.pay-box .pay-chose span.chosen {
-    border-color: #0092ee;
-}
-
-.pay-box .pay-chose span img {
-    height: 25px;
-    vertical-align: middle;
-}
-
 .post-type .post-footer {
     margin: 0 -15px -15px;
     border-top: 1px solid #e3e8e8;
@@ -949,19 +805,8 @@ div.lazy {
     color: #635f5f;
 }
 
-.post-type .post-footer .like:before,
-.like-pay .post-like a.like:before {
-    font-family: "memory" !important;
-    content: "\e66b";
-}
-
 .post-type .post-footer a.have-like {
     color: #d43f57;
-}
-
-.post-type .post-footer .have-like:before,
-.like-pay .post-like a.have-like:before {
-    content: "\eb40";
 }
 
 .post-type .post-footer>span:last-child {
