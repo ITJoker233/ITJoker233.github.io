@@ -1583,7 +1583,12 @@ textarea {
     background-color: #fbf9f9;
     height: 24px;
     padding: 0 8px;
+    color: #666;
     border: 1px solid #e3e8e8;
+}
+
+.tag-cloud-link:hover {
+    color: #00BBFF;
 }
 
 .comment-comment .OwO-img,
