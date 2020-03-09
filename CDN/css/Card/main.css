@@ -93,7 +93,6 @@ input:-webkit-autofill {
 button,
 input,
 textarea {
-    list-style: none;
     /*-webkit-appearance: none;
     outline: none;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);*/
@@ -684,19 +683,19 @@ textarea {
 .post-type .post-content a:before,
 .post-type .post-copyright a:before,
 #comments .comment-comment p a:before {
-    font-family: "memory";
+    font-family: "Card";
     content: "\e630";
 }
 
 .post-type .post-content a.no-des:before,
 .post-type .post-category a:before {
-    font-family: "memory";
+    font-family: "Card";
     content: none;
 }
 
 .post-type .post-content a.at:before,
 #comments .comment-comment p a.at:before {
-    font-family: "memory";
+    font-family: "Card";
     content: '\e69b';
 }
 
