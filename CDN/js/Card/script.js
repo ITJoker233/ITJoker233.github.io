@@ -16,22 +16,30 @@ function SelectContent(element) {
     selection.removeAllRanges();
     selection.addRange(rangeToSelect);
 }
+
+function createMessage(message, time = 1000) { //消息推送
+    if ($(".message").length > 0) {
+        $(".message").remove();
+    }
+    $("body").append('<div class="message"><p class="message-info">' + message + '</p></div>');
+    setTimeout("$('.message').remove()", time);
+}
 var $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');      
 App = {
     mouseEvent: function() {
         $('body').on('click', function() {
             $('#personal-menu').fadeOut(250);
         });
-        $(document).on('click', '#menu-bar.memory-menu', function() {
+        $(document).on('click', '#menu-bar.card-menu', function() {
             $('#menu-bar').animate({ left: -42 }, 200, function() {
-                $(this).removeClass('memory-menu').addClass('memory-close');
+                $(this).removeClass('card-menu').addClass('card-close');
                 $(this).animate({ left: 0 }, 200);
             });
             $('#mobile-menu').fadeIn(200).css('top', 0);
         });
-        $(document).on('click', '#menu-bar.memory-close', function() {
+        $(document).on('click', '#menu-bar.card-close', function() {
             $('#menu-bar').animate({ left: -42 }, 200, function() {
-                $(this).removeClass('memory-close').addClass('memory-menu');
+                $(this).removeClass('card-close').addClass('card-menu');
                 $(this).animate({ left: 0 }, 200);
             });
             $('#mobile-menu').fadeOut(200).css('top', -400);
@@ -44,13 +52,6 @@ App = {
         console.clear();
         console.log(" Blog Update Time: " + newDate.toLocaleDateString());
         console.log("\n %c \u26a1Theme:Card Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
-    },
-    createMessage: function(message, time = 1000) { //消息推送
-        if ($(".message").length > 0) {
-            $(".message").remove();
-        }
-        $("body").append('<div class="message"><p class="message-info">' + message + '</p></div>');
-        setTimeout("$('.message').remove()", time);
     },
     hitokoto: function() { //一言
         function getHitokoto() {

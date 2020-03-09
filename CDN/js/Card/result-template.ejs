@@ -6,7 +6,7 @@
                     <img alt="<%= themeConfig.siteName %>" src="<%= themeConfig.domain %>/images/avatar.png" srcset="<%= themeConfig.domain %>/images/avatar.png" class="avatar avatar-100 photo" width="100" height="100">
                     <span class="post-type-author">
                   <%= themeConfig.siteName %>
-                  <i class="memory memory-certify"></i><span class="publish-time"> - <i class="fa fa-calendar"
+                  <i class="card card-certify"></i><span class="publish-time"> - <i class="fa fa-calendar"
                           aria-hidden="true"></i> <%= post.dateFormat %></span>
                     </span>
                     <h3 class="post-type-title">
@@ -39,10 +39,10 @@
             </div>
             <div class="post-footer">
                 <span id="span_btn" style="text-align: center;" onclick="javascript:top.location='<%= post.link %>'">
-                  <i class="memory memory-more-o"></i> &#x9605;&#x8BFB;
+                  <i class="card card-more-o"></i> &#x9605;&#x8BFB;
               </span>
                 <span id="span_btn" style="text-align: center;" onclick="javascript:window.open('https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=<%= post.link %>')">
-                  <i class=" memory memory-share "></i> &#x4E8C;&#x7EF4;&#x7801;&#x5206;&#x4EAB;
+                  <i class=" card card-share "></i> &#x4E8C;&#x7EF4;&#x7801;&#x5206;&#x4EAB;
               </span>
             </div>
         </article>
