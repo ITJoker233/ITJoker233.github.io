@@ -93,9 +93,10 @@ input:-webkit-autofill {
 button,
 input,
 textarea {
-    -webkit-appearance: none;
+    list-style: none;
+    /*-webkit-appearance: none;
     outline: none;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);*/
 }
 
 div,
@@ -766,6 +767,10 @@ textarea {
 .post-type .post-content ul,
 .post-type .post-content ol {
     padding-left: 20px;
+}
+
+.task-list-item {
+    list-style: none;
 }
 
 .post-type .post-footer {
