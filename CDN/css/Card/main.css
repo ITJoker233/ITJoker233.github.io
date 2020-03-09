@@ -307,7 +307,7 @@ textarea {
     position: relative;
 }
 
-#pc-menu .searchform .memory-search {
+#pc-menu .searchform .Card-search {
     position: absolute;
     left: 10px;
     top: 8px;
@@ -985,7 +985,7 @@ textarea {
     font-weight: normal;
 }
 
-.lite-item .lite-item-header .memory {
+.lite-item .lite-item-header .Card {
     font-size: 19px;
 }
 
@@ -1156,8 +1156,8 @@ textarea {
     padding-top: 10px;
 }
 
-#pagination .memory-comments-page a,
-#pagination .memory-comments-page span {
+#pagination .Card-comments-page a,
+#pagination .Card-comments-page span {
     color: #222;
     cursor: pointer;
     text-align: center;
@@ -1176,8 +1176,8 @@ textarea {
     line-height: 36px;
 }
 
-#pagination .memory-comments-page .current,
-#pagination .memory-comments-page a:hover {
+#pagination .Card-comments-page .current,
+#pagination .Card-comments-page a:hover {
     background: #0d93ee;
     color: #fff;
     border: 1px solid #0d93ee;
@@ -1495,7 +1495,7 @@ textarea {
     min-height: 80px;
 }
 
-#main-part .author .art-author .author-info .memory-birthday {
+#main-part .author .art-author .author-info .Card-birthday {
     color: #adad0f;
 }
 
@@ -1515,35 +1515,35 @@ textarea {
     text-align: center;
 }
 
-#main-part .author .art-author .author-info .author-contactmethods .memory-twitter {
+#main-part .author .art-author .author-info .author-contactmethods .Card-twitter {
     color: #55acee;
 }
 
-#main-part .author .art-author .author-info .author-contactmethods .memory-facebook {
+#main-part .author .art-author .author-info .author-contactmethods .Card-facebook {
     color: #44619d;
 }
 
-#main-part .author .art-author .author-info .author-contactmethods .memory-weibo {
+#main-part .author .art-author .author-info .author-contactmethods .Card-weibo {
     color: #ff763b;
 }
 
-#main-part .author .art-author .author-info .author-contactmethods .memory-tencentweibo {
+#main-part .author .art-author .author-info .author-contactmethods .Card-tencentweibo {
     color: #56b6e7;
 }
 
-#main-part .author .art-author .author-info .author-contactmethods .memory-bilibili {
+#main-part .author .art-author .author-info .author-contactmethods .Card-bilibili {
     color: #0bf;
 }
 
-#main-part .author .art-author .author-info .author-contactmethods .memory-douban {
+#main-part .author .art-author .author-info .author-contactmethods .Card-douban {
     color: #33b045;
 }
 
-#main-part .author .art-author .author-info .author-contactmethods .memory-qqzone {
+#main-part .author .art-author .author-info .author-contactmethods .Card-qqzone {
     color: #fdbe3d;
 }
 
-#main-part .author .art-author .author-info .author-contactmethods .memory-zhihu {
+#main-part .author .art-author .author-info .author-contactmethods .Card-zhihu {
     color: rgb(15, 136, 235);
 }
 
@@ -1661,8 +1661,8 @@ textarea {
     border-radius: 5px;
 }
 
-#foot #back-to-top .memory-top,
-#go-to-comment .memory-comments {
+#foot #back-to-top .Card-top,
+#go-to-comment .Card-comments {
     font-size: 25px;
 }
 
@@ -1732,7 +1732,7 @@ textarea {
         font-size: 14px;
         padding: 0 10px 0 35px;
     }
-    #mobile-menu .mobile-searchform .memory-search {
+    #mobile-menu .mobile-searchform .Card-search {
         position: absolute;
         left: 12px;
         top: 10px;
@@ -1751,7 +1751,7 @@ textarea {
         margin: 8px 0;
         font-size: 14px;
     }
-    #mobile-menu #mobile-menu-main>ul>li .memory,
+    #mobile-menu #mobile-menu-main>ul>li .Card,
     #mobile-menu #mobile-menu-main>ul>li:before {
         display: block;
         font-size: 28px;
