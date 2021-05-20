@@ -37,7 +37,7 @@
         <hr>
         <div class="row">
             <div class="col-sm-12">
-                <h6>© 2020 CDN | Powered by jsdelivr | <a href="https://blog.itjoker.cn">ITJoker'sBlog</a></h6>
+                <h6>© 2021 CDN | Powered by jsdelivr | <a href="https://blog.itjoker.cn">ITJoker'sBlog</a></h6>
             </div>
         </div>
     </div>
