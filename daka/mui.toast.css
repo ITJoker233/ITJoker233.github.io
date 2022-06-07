@@ -1,0 +1,10 @@
+﻿.mui-toast-container {
+    bottom: 50% !important;
+}
+.mui-toast-message {
+    background: url(/resource/images/mobile/dislx3.png) no-repeat center 10px #000;
+    opacity: 0.6!important;
+    color: #fff!important;
+    width: 180px!important;
+    padding: 70px 5px 10px 5px!important;
+}

@@ -17,12 +17,12 @@
             </div>
             <div class="col-sm-9">
                 <h2>CDN_1_使用方法:</h2>
-                <h3>图片：<a href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/pic/">https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/pic/</a></h3>
-                <h3>视频：<a href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/video/">https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/video/</a></h3>
-                <h3>音乐：<a href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/music/">https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/music/</a></h3>
-                <h3>JS：<a href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/">https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/</a></h3>
-                <h3>CSS：<a href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/">https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/css/</a></h3>
-                <h3>字体：<a href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/">https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/fonts/</a></h3>
+                <h3>图片：<a href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/pic/">https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/pic/</a></h3>
+                <h3>视频：<a href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/video/">https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/video/</a></h3>
+                <h3>音乐：<a href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/music/">https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/music/</a></h3>
+                <h3>JS：<a href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/">https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/</a></h3>
+                <h3>CSS：<a href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/">https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/css/</a></h3>
+                <h3>字体：<a href="https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/">https://fastly.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/fonts/</a></h3>
             </div>
             <div class="col-sm-9">
                 <h2>CDN_2_使用方法:</h2>
