@@ -383,41 +383,41 @@
 }
 
 .首页 {
-    background-image: url(../img/首页.png);
+    background-image: url(../daka/img/首页.png);
     background-size: 24px;
 }
 
 .mui-active .首页 {
-    background-image: url(../img/首页-over.png);
+    background-image: url(../daka/img/首页-over.png);
     background-size: 24px;
 }
 
 .提醒 {
-    background-image: url(../img/提醒.png);
+    background-image: url(../daka/img/提醒.png);
     background-size: 24px;
 }
 
 .mui-active .提醒 {
-    background-image: url(../img/提醒-over.png);
+    background-image: url(../daka/img/提醒-over.png);
     background-size: 24px;
 }
 
 .通讯录 {
-    background-image: url(../img/通讯录.png);
+    background-image: url(../daka/img/通讯录.png);
     background-size: 24px;
 }
 
 .mui-active .通讯录 {
-    background-image: url(../img/通讯录-over.png);
+    background-image: url(../daka/img/通讯录-over.png);
     background-size: 24px;
 }
 
 .我的 {
-    background-image: url(../img/我的.png);
+    background-image: url(../daka/img/我的.png);
     background-size: 24px;
 }
 
 .mui-active .我的 {
-    background-image: url(../img/我的-over.png);
+    background-image: url(../daka/img/我的-over.png);
     background-size: 24px;
 }
