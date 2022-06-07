@@ -1,425 +1,422 @@
-﻿
+﻿.ljl {
+    padding: 1% 0;
+}
+
+.bjl {
+    height: 33.5px;
+    background: #f3f3f3;
+    box-shadow: 0px 2px 5px rgba(63, 81, 181, 0.25);
+    overflow: hidden;
+}
+
+.hbjl {
+    height: 24px;
+}
+
+.bhb input {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.15);
+    line-height: 20px;
+    border: none;
+    color: #999999;
+    background-size: 15px 15px;
+    text-align: start;
+    font-size: 12px;
+    height: 24px;
+    margin-bottom: 0;
+    text-indent: 1.4em;
+}
+
+.mysc-text {
+    font-size: 14px;
+    margin-left: 4%;
+    height: 40px;
+    float: left;
+    width: 20%;
+}
+
+.mui-table-view .mui-media,
+.mui-table-view .mui-media-body {
+    text-overflow: ellipsis;
+}
+
+.mui-table-view .mui-media-object {
+    line-height: 50px;
+    max-width: 50px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.iconfont {
+    padding: 5px;
+}
+
+.mui-scroll-wrapper {
+    margin-top: 114.5px;
+    background-color: white;
+}
+
+.content-slide {
+    background: #fff;
+}
+
+.content-slide ul {
+    padding: 0 10px;
+}
+
+.content-slide ul li p {
+    color: rgb(0, 0, 0);
+    line-height: 20px;
+    height: 20px;
+    font-size: 0.7em;
+    margin-bottom: 0px;
+    text-overflow: ellipsis;
+    /*字数超出...*/
+    overflow: hidden;
+}
+
+.bhb a img {
+    position: absolute;
+    left: 5%;
+    width: 20px;
+}
+
+.bjl {
+    height: 33.5px;
+    background: #f3f3f3;
+    box-shadow: 0px 2px 5px rgba(63, 81, 181, 0.25);
+    overflow: hidden;
+}
+
+.mysc-uldiv {
+    height: 40px;
+    width: 66%;
+    float: left;
+}
+
+.mysc-ul li {
+    width: 14%;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+}
+
 .ljl {
-            padding: 1% 0;
-        }
-
-        .bjl {
-            height: 33.5px;
-            background: #f3f3f3;
-            box-shadow: 0px 2px 5px rgba(63,81,181,0.25);
-            overflow: hidden;
-        }
-
-        .hbjl {
-            height: 24px;
-        }
-
-        .bhb input {
-            width: 100%;
-            background-color: rgba(255,255,255,0.15);
-            line-height: 20px;
-            border: none;
-            color: #999999;
-            background-size: 15px 15px;
-            text-align: start;
-            font-size: 12px;
-            height: 24px;
-            margin-bottom: 0;
-            text-indent: 1.4em;
-        }
-
-        .mysc-text {
-            font-size: 14px;
-            margin-left: 4%;
-            height: 40px;
-            float: left;
-            width: 20%;
-        }
-
-        .mui-table-view .mui-media, .mui-table-view .mui-media-body {
-            text-overflow: ellipsis;
-        }
-
-        .mui-table-view .mui-media-object {
-            line-height: 50px;
-            max-width: 50px;
-            height: 50px;
-            margin-top: 5px;
-        }
-
-        .iconfont {
-            padding: 5px;
-        }
-
-        .mui-scroll-wrapper {
-            margin-top: 114.5px;
-            background-color: white;
-        }
-
-        .content-slide {
-            background: #fff;
-        }
-
-            .content-slide ul {
-                padding: 0 10px;
-            }
-
-                .content-slide ul li p {
-                    color: rgb(0, 0, 0);
-                    line-height: 20px;
-                    height: 20px;
-                    font-size: 0.7em;
-                    margin-bottom: 0px;
-                    text-overflow: ellipsis; /*字数超出...*/
-                    overflow: hidden;
-                }
-
-
-
-        .bhb a img {
-            position: absolute;
-            left: 5%;
-            width: 20px;
-        }
-
-        .bjl {
-            height: 33.5px;
-            background: #f3f3f3;
-            box-shadow: 0px 2px 5px rgba(63,81,181,0.25);
-            overflow: hidden;
-        }
-
-        .mysc-uldiv {
-            height: 40px;
-            width: 66%;
-            float: left;
-        }
-
-        .mysc-ul li {
-            width: 14%;
-            float: left;
-            text-align: center;
-            overflow: hidden;
-        }
-
-        .ljl {
-            padding: 1% 0;
-        }
-
-        .mysc-div {
-            height: 40px;
-            display: inline-block;
-            width: 100%;
-        }
-
-        .mysc-text {
-            padding: 10px;
-            /*font-weight: 600;*/
-            width: auto;
-            margin-left: 7px;
-            font-size: 0.78rem;
-            float: left;
-        }
-
-        .mysc-ul img {
-            width: 16px;
-        }
-
-        .mysc-ul li {
-            float: left;
-            text-align: center;
-            overflow: hidden;
-            padding: 10px 3px;
-        }
-
-        .mysc-ul span {
-            font-size: 20px;
-            padding: 0px;
-        }
-
-
-        .mysc-edit a {
-            font-family: 方正兰亭黑简体;
-            width: 54px;
-            color: #2779e7;
-            font-size: 13px;
-        }
-
-        .mysc-edit {
-            margin-top: 8px;
-        }
-
-
-        .mysc--li-more {
-            margin-top: -15px;
-            font-size: 24px;
-        }
-
-            .mysc--li-more a {
-                color: #ccc;
-            }
-
-        .classify {
-            height: 40px;
-            text-align: center;
-            font-size: 16px;
-            background: #fff;
-            border-bottom: 1px solid #f1f1f1;
-        }
-
-        .classify-item {
-            display: inline-block;
-            margin: auto;
-            border: none;
-            background: none;
-            color: inherit;
-            position: relative;
-            z-index: 1;
-            height: 40px;
-            padding: 10px;
-        }
-
-        .classify .active {
-            border-bottom: 2px solid #2779e7;
-            color: #2779e7;
-        }
-
-        .zkz {
-            height: 8px;
-        }
-
-
-
-
-        .title-h4 {
-            padding: 1rem 0 0.7rem 1rem;
-            margin: 0;
-            /*font-weight: 600;*/
-            font-size: 0.96rem;
-        }
-
-
-        .mui-slider .mui-slider-group .mui-slider-item img {
-            max-height: 95px !important;
-        }
-
-
-        .mui-grid-view.mui-grid-9 .mui-table-view-cell > a:not(.mui-btn) {
-            margin: 0;
-            padding: 8px 0;
-        }
-
-        .applyclass-box {
-            display: -webkit-box;
-            overflow-x: scroll;
-            -webkit-overflow-scrolling: touch;
-            background: #fff;
-        }
-
-        .slide-item {
-            /*margin: 15px 8px;*/
-            width: auto;
-            margin: 5px 5px 0px 15px;
-            padding: 0 10px 0 0;
-        }
-
-            .slide-item a {
-                /*font-family:"宋体";*/
-            }
-
-        ::-webkit-scrollbar {
-            display: none;
-        }
-
-        .mui-segmented-control.mui-segmented-control-inverted .mui-control-item {
-            font-size: 0.86rem;
-            width: 100%;
-        }
-
-        .applyclass-box-top {
-            position: fixed !important;
-            top: 40px !important;
-            z-index: 990;
-        }
-
-        .applyclass-box-top-co {
-            position: fixed !important;
-            z-index: 990;
-        }
-
-
-
-        .mui-plus .plus {
-            display: inline;
-        }
-
-        .plus {
-            display: none;
-        }
-
-        #topPopover {
-            position: fixed;
-            top: 16px;
-            right: 6px;
-        }
-
-            #topPopover .mui-popover-arrow {
-                left: auto;
-                right: 6px;
-            }
-
-        .mui-popover {
-            height: 240px;
-        }
-
-            .mui-popover .mui-scroll-wrapper {
-                margin: 0;
-            }
-
-        .mui-backdrop {
-            top: 40.5px;
-        }
-
-        .btn-close {
-            background: #fff;
-        }
-
-        .mui-backdrop .mui-table-view-cell {
-            padding: 13px 15px;
-            border-bottom: 1px solid #ececec;
-        }
-
-        .mui-backdrop .mui-media-body {
-            padding-left: 1em;
-        }
-
-        .mui-backdrop .mui-media span {
-            float: left;
-            padding: 0;
-        }
-
-        .mui-grid-view.mui-grid-9 .collection {
-            width: 23% !important;
-            margin: 1%;
-            box-shadow: rgba(63,81,181,0.25) 0px 0px 5px;
-            background: #fafafb;
-            margin-top: 5px !important;
-            margin-bottom: 5px;
-            position: relative;
-        }
-
-        .mui-grid-view.mui-grid-9 .btn {
-            display: none;
-        }
-
-        .mui-grid-view.mui-grid-9 .collectionmask {
-            display: none;
-        }
-
-        .mui-grid-view.mui-grid-9 .collection .btn {
-            display: block;
-            position: absolute;
-            top: 2%;
-            right: 2%;
-            width: 40px;
-            height: 40px;
-            text-align: right;
-        }
-
-        .mui-grid-view.mui-grid-9 .collection .collectionmask {
-            display: block;
-        }
-
-        .mui-grid-view.mui-grid-9 .collection img {
-            width: 16px;
-        }
-
-        .mui-grid-view.mui-grid-9 .collection > a:not(.mui-btn) {
-            padding: 4px 0;
-        }
-
-        .mui-bar {
-            height: 40.5px;
-            box-shadow: none;
-            background-color: #fff;
-            border-top: 1px solid #eee;
-        }
-
-            .mui-bar .mui-btn-link {
-                line-height: 40.5px;
-            }
-
-        .mui-title {
-            font-size: 16px;
-            line-height: 40.5px;
-        }
-
-        .mui-bar .mui-btn-nav.mui-pull-left {
-            margin-left: 10px;
-        }
-
-        .mui-bar .mui-btn-nav.mui-pull-right {
-            margin-right: 10px;
-        }
-
-        .collectionmask {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-        }
-
-        #mycollection {
-            position: fixed;
-            top: 40.5px;
-            z-index: 10;
-            width: 100%;
-            /*box-shadow: 0 1px 6px  */
-        }
-
-        .yyfl {
-            position: fixed;
-            z-index: 999;
-            top: 34px;
-        }
-
-        .mui-bar-tab ~ .mui-content {
-            padding-bottom: 0px;
-        }
-
-        .mui-slider .mui-slider-group .mui-slider-item .slider-img {
-            width: 100%;
-            height: 125px;
-        }
-        
+    padding: 1% 0;
+}
+
+.mysc-div {
+    height: 40px;
+    display: inline-block;
+    width: 100%;
+}
+
+.mysc-text {
+    padding: 10px;
+    /*font-weight: 600;*/
+    width: auto;
+    margin-left: 7px;
+    font-size: 0.78rem;
+    float: left;
+}
+
+.mysc-ul img {
+    width: 16px;
+}
+
+.mysc-ul li {
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    padding: 10px 3px;
+}
+
+.mysc-ul span {
+    font-size: 20px;
+    padding: 0px;
+}
+
+.mysc-edit a {
+    font-family: 方正兰亭黑简体;
+    width: 54px;
+    color: #2779e7;
+    font-size: 13px;
+}
+
+.mysc-edit {
+    margin-top: 8px;
+}
+
+.mysc--li-more {
+    margin-top: -15px;
+    font-size: 24px;
+}
+
+.mysc--li-more a {
+    color: #ccc;
+}
+
+.classify {
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    background: #fff;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.classify-item {
+    display: inline-block;
+    margin: auto;
+    border: none;
+    background: none;
+    color: inherit;
+    position: relative;
+    z-index: 1;
+    height: 40px;
+    padding: 10px;
+}
+
+.classify .active {
+    border-bottom: 2px solid #2779e7;
+    color: #2779e7;
+}
+
+.zkz {
+    height: 8px;
+}
+
+.title-h4 {
+    padding: 1rem 0 0.7rem 1rem;
+    margin: 0;
+    /*font-weight: 600;*/
+    font-size: 0.96rem;
+}
+
+.mui-slider .mui-slider-group .mui-slider-item img {
+    max-height: 95px !important;
+}
+
+.mui-grid-view.mui-grid-9 .mui-table-view-cell>a:not(.mui-btn) {
+    margin: 0;
+    padding: 8px 0;
+}
+
+.applyclass-box {
+    display: -webkit-box;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    background: #fff;
+}
+
+.slide-item {
+    /*margin: 15px 8px;*/
+    width: auto;
+    margin: 5px 5px 0px 15px;
+    padding: 0 10px 0 0;
+}
+
+.slide-item a {
+    /*font-family:"宋体";*/
+}
+
+ ::-webkit-scrollbar {
+    display: none;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item {
+    font-size: 0.86rem;
+    width: 100%;
+}
+
+.applyclass-box-top {
+    position: fixed !important;
+    top: 40px !important;
+    z-index: 990;
+}
+
+.applyclass-box-top-co {
+    position: fixed !important;
+    z-index: 990;
+}
+
+.mui-plus .plus {
+    display: inline;
+}
+
+.plus {
+    display: none;
+}
+
+#topPopover {
+    position: fixed;
+    top: 16px;
+    right: 6px;
+}
+
+#topPopover .mui-popover-arrow {
+    left: auto;
+    right: 6px;
+}
+
+.mui-popover {
+    height: 240px;
+}
+
+.mui-popover .mui-scroll-wrapper {
+    margin: 0;
+}
+
+.mui-backdrop {
+    top: 40.5px;
+}
+
+.btn-close {
+    background: #fff;
+}
+
+.mui-backdrop .mui-table-view-cell {
+    padding: 13px 15px;
+    border-bottom: 1px solid #ececec;
+}
+
+.mui-backdrop .mui-media-body {
+    padding-left: 1em;
+}
+
+.mui-backdrop .mui-media span {
+    float: left;
+    padding: 0;
+}
+
+.mui-grid-view.mui-grid-9 .collection {
+    width: 23% !important;
+    margin: 1%;
+    box-shadow: rgba(63, 81, 181, 0.25) 0px 0px 5px;
+    background: #fafafb;
+    margin-top: 5px !important;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.mui-grid-view.mui-grid-9 .btn {
+    display: none;
+}
+
+.mui-grid-view.mui-grid-9 .collectionmask {
+    display: none;
+}
+
+.mui-grid-view.mui-grid-9 .collection .btn {
+    display: block;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    width: 40px;
+    height: 40px;
+    text-align: right;
+}
+
+.mui-grid-view.mui-grid-9 .collection .collectionmask {
+    display: block;
+}
+
+.mui-grid-view.mui-grid-9 .collection img {
+    width: 16px;
+}
+
+.mui-grid-view.mui-grid-9 .collection>a:not(.mui-btn) {
+    padding: 4px 0;
+}
+
+.mui-bar {
+    height: 40.5px;
+    box-shadow: none;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+}
+
+.mui-bar .mui-btn-link {
+    line-height: 40.5px;
+}
+
+.mui-title {
+    font-size: 16px;
+    line-height: 40.5px;
+}
+
+.mui-bar .mui-btn-nav.mui-pull-left {
+    margin-left: 10px;
+}
+
+.mui-bar .mui-btn-nav.mui-pull-right {
+    margin-right: 10px;
+}
+
+.collectionmask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+#mycollection {
+    position: fixed;
+    top: 40.5px;
+    z-index: 10;
+    width: 100%;
+    /*box-shadow: 0 1px 6px  */
+}
+
+.yyfl {
+    position: fixed;
+    z-index: 999;
+    top: 34px;
+}
+
+.mui-bar-tab~.mui-content {
+    padding-bottom: 0px;
+}
+
+.mui-slider .mui-slider-group .mui-slider-item .slider-img {
+    width: 100%;
+    height: 125px;
+}
+
 .首页 {
     background-image: url(../img/首页.png);
     background-size: 24px;
 }
+
 .mui-active .首页 {
     background-image: url(../img/首页-over.png);
     background-size: 24px;
 }
+
 .提醒 {
     background-image: url(../img/提醒.png);
     background-size: 24px;
 }
+
 .mui-active .提醒 {
     background-image: url(../img/提醒-over.png);
     background-size: 24px;
 }
+
 .通讯录 {
     background-image: url(../img/通讯录.png);
     background-size: 24px;
 }
+
 .mui-active .通讯录 {
     background-image: url(../img/通讯录-over.png);
     background-size: 24px;
 }
+
 .我的 {
     background-image: url(../img/我的.png);
     background-size: 24px;
 }
+
 .mui-active .我的 {
     background-image: url(../img/我的-over.png);
     background-size: 24px;
